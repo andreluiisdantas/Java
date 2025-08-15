@@ -1,0 +1,15 @@
+public class Exercicio2 {
+    public static void main(String[] args) {
+        int contador = 0;
+        while (contador < 10){
+            contador++;
+            int num = 0;
+            while (num <= 10){
+                int resultado = num * contador;
+                System.out.printf("%d X %d = %d\n", contador, num, resultado);
+                num ++;
+            }
+            System.out.println();
+        }
+    }
+}
